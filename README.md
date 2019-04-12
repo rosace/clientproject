@@ -16,3 +16,4 @@ artist suggestion ,
 sharing own music ,
 songs based on weather/mood ,
 karaoke
+lyrics
