@@ -1,3 +1,46 @@
-h1 {
+#title {
+  text-align: center;
   color: fuchsia;
+  text-shadow: 3px 1px pink;
+  font-size: 50px;
+  margin-top: -8px;
+}
+
+#playlistTitle {
+  text-align: center;
+  font-size: 25px;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDiH-cxniDN8oDfBqWk1hDKVKIHNMx2-4N-L0fZ8aUPKcp1g8b9A");
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-around;
+}
+
+#songDay {
+  width: 40%;
+}
+
+#search {
+  padding: 5px 5px;
+  font-size: 20px;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+#playlist {
+  width:20%;
+  height: 100px;
+  background-color: lightblue;
+  overflow-y: auto;
+}
+
+#secondBody {
+  width:80%;
 }
