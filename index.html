@@ -17,7 +17,7 @@
       </div>
       <div id="searchArea">
         <input id="search">
-        <input type="image" src="http://cdn.onlinewebfonts.com/svg/img_388871.png" alt="button" width="40" height="40">
+        <input id="searchButton" type="image" src="http://cdn.onlinewebfonts.com/svg/img_388871.png" alt="button" width="40" height="40">
       </div>
     </div>
     <div class="mainBody">
@@ -25,17 +25,32 @@
         <h1 id="playlistTitle">Playlist</h1>
       </div>
       <div id="secondBody">
-        <div id="video">
+        <div id = "vid"></div>
+        <h2 id="suggest">Song suggestions</h2>
+        <div class="sugSong">
+          <div id="s1" class="song"></div>
+          <div id="s2" class="song"></div>
+          <div id="s3" class="song"></div>
         </div>
-        <div id="recommended">
+        
+        
+        <div id = "SugArtist"> 
         </div>
       </div>
+      <div id = "weather">
+          <h1 id= "watherTitle">Based On Weather</h1>
+      </div>
     </div>
+      
+
+      
+       
     
     <!-- jQuery Linked Below-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Your Javascript Linked Below-->
     <script src="js/script.js" defer></script> 
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
   </body>
 
 </html>
