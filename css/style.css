@@ -62,9 +62,7 @@ body {
 }
 
 
-#secondBody {
-  width:30%;
-}
+
 
 #vid {
   
@@ -78,13 +76,8 @@ body {
 }
 
 .sugSong {
-  
- 
   display: flex;
   justify-content: space-around;
-  
-  
-  
 }
 
 .song{
@@ -93,7 +86,9 @@ body {
   border: 5px dotted white ;
   padding: 50px;
   margin: 20px;
- 
-  
 }
 
+#searchedResults {
+  display: flex;
+  justify-content: center;
+}
