@@ -42,31 +42,31 @@ body {
 }
 
 #playlist {
-  width:10%;
+  width:20%;
   height: 90px;
   background-color:#ffe6e6 ;
   overflow-y: auto;
 }
 #secondBody {
-  width:40%;
+  width:70%;
 }
-#weather {
-  width: 10%;
-  height: 100px;
-  background-color:#ffe6e6;
-}
-#karaoke{
-  width: 9% ;
-  height: 90px;
-  background-color:#ffe6e6 ;
-}
+/*#weather {*/
+/*  width: 10%;*/
+/*  height: 100px;*/
+/*  background-color:#ffe6e6;*/
+/*}*/
+/*#favorites{*/
+/*  width: 9% ;*/
+/*  height: 90px;*/
+/*  background-color:#ffe6e6 ;*/
+/*}*/
 
 
 
 
 #vid {
   
-  width: 150px;
+  width: 100px;
   border: 5px dotted white ;
   padding: 200px;
   margin: 20px;
